@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../libOP_lib.a  CMakeFiles/OP_lib.dir/Dominators.cpp.o CMakeFiles/OP_lib.dir/Mem2Reg.cpp.o CMakeFiles/OP_lib.dir/GVN.cpp.o
+/usr/bin/ranlib ../../libOP_lib.a

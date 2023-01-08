@@ -1,0 +1,177 @@
+[
+{
+  "directory": "/labs/2022fall-compiler_cminus/build/src/parser",
+  "command": "/usr/bin/cc  -I/labs/2022fall-compiler_cminus/include -I/llvm/include -I/labs/2022fall-compiler_cminus -I/labs/2022fall-compiler_cminus/build -I/labs/2022fall-compiler_cminus/include/lightir -I/labs/2022fall-compiler_cminus/include/optimization   -std=c99 -g   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/syntax.dir/syntax_analyzer.c.o   -c /labs/2022fall-compiler_cminus/build/src/parser/syntax_analyzer.c",
+  "file": "/labs/2022fall-compiler_cminus/build/src/parser/syntax_analyzer.c"
+},
+{
+  "directory": "/labs/2022fall-compiler_cminus/build/src/parser",
+  "command": "/usr/bin/cc  -I/labs/2022fall-compiler_cminus/include -I/llvm/include -I/labs/2022fall-compiler_cminus -I/labs/2022fall-compiler_cminus/build -I/labs/2022fall-compiler_cminus/include/lightir -I/labs/2022fall-compiler_cminus/include/optimization   -std=c99 -g   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/syntax.dir/lexical_analyzer.c.o   -c /labs/2022fall-compiler_cminus/build/src/parser/lexical_analyzer.c",
+  "file": "/labs/2022fall-compiler_cminus/build/src/parser/lexical_analyzer.c"
+},
+{
+  "directory": "/labs/2022fall-compiler_cminus/build/src/common",
+  "command": "/usr/bin/cc  -I/labs/2022fall-compiler_cminus/include -I/llvm/include -I/labs/2022fall-compiler_cminus -I/labs/2022fall-compiler_cminus/build -I/labs/2022fall-compiler_cminus/include/lightir -I/labs/2022fall-compiler_cminus/include/optimization   -std=c99 -g   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/common.dir/syntax_tree.c.o   -c /labs/2022fall-compiler_cminus/src/common/syntax_tree.c",
+  "file": "/labs/2022fall-compiler_cminus/src/common/syntax_tree.c"
+},
+{
+  "directory": "/labs/2022fall-compiler_cminus/build/src/common",
+  "command": "/usr/bin/c++   -I/labs/2022fall-compiler_cminus/include -I/llvm/include -I/labs/2022fall-compiler_cminus -I/labs/2022fall-compiler_cminus/build -I/labs/2022fall-compiler_cminus/include/lightir -I/labs/2022fall-compiler_cminus/include/optimization   -O0 -Wall -g2 -ggdb   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -std=gnu++17 -o CMakeFiles/common.dir/ast.cpp.o -c /labs/2022fall-compiler_cminus/src/common/ast.cpp",
+  "file": "/labs/2022fall-compiler_cminus/src/common/ast.cpp"
+},
+{
+  "directory": "/labs/2022fall-compiler_cminus/build/src/common",
+  "command": "/usr/bin/c++   -I/labs/2022fall-compiler_cminus/include -I/llvm/include -I/labs/2022fall-compiler_cminus -I/labs/2022fall-compiler_cminus/build -I/labs/2022fall-compiler_cminus/include/lightir -I/labs/2022fall-compiler_cminus/include/optimization   -O0 -Wall -g2 -ggdb   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -std=gnu++17 -o CMakeFiles/common.dir/logging.cpp.o -c /labs/2022fall-compiler_cminus/src/common/logging.cpp",
+  "file": "/labs/2022fall-compiler_cminus/src/common/logging.cpp"
+},
+{
+  "directory": "/labs/2022fall-compiler_cminus/build/src/io",
+  "command": "/usr/bin/cc  -I/labs/2022fall-compiler_cminus/include -I/llvm/include -I/labs/2022fall-compiler_cminus -I/labs/2022fall-compiler_cminus/build -I/labs/2022fall-compiler_cminus/include/lightir -I/labs/2022fall-compiler_cminus/include/optimization   -std=c99 -g   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/cminus_io.dir/io.c.o   -c /labs/2022fall-compiler_cminus/src/io/io.c",
+  "file": "/labs/2022fall-compiler_cminus/src/io/io.c"
+},
+{
+  "directory": "/labs/2022fall-compiler_cminus/build/src/lightir",
+  "command": "/usr/bin/c++   -I/labs/2022fall-compiler_cminus/include -I/llvm/include -I/labs/2022fall-compiler_cminus -I/labs/2022fall-compiler_cminus/build -I/labs/2022fall-compiler_cminus/include/lightir -I/labs/2022fall-compiler_cminus/include/optimization   -O0 -Wall -g2 -ggdb   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -std=gnu++17 -o CMakeFiles/IR_lib.dir/Type.cpp.o -c /labs/2022fall-compiler_cminus/src/lightir/Type.cpp",
+  "file": "/labs/2022fall-compiler_cminus/src/lightir/Type.cpp"
+},
+{
+  "directory": "/labs/2022fall-compiler_cminus/build/src/lightir",
+  "command": "/usr/bin/c++   -I/labs/2022fall-compiler_cminus/include -I/llvm/include -I/labs/2022fall-compiler_cminus -I/labs/2022fall-compiler_cminus/build -I/labs/2022fall-compiler_cminus/include/lightir -I/labs/2022fall-compiler_cminus/include/optimization   -O0 -Wall -g2 -ggdb   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -std=gnu++17 -o CMakeFiles/IR_lib.dir/User.cpp.o -c /labs/2022fall-compiler_cminus/src/lightir/User.cpp",
+  "file": "/labs/2022fall-compiler_cminus/src/lightir/User.cpp"
+},
+{
+  "directory": "/labs/2022fall-compiler_cminus/build/src/lightir",
+  "command": "/usr/bin/c++   -I/labs/2022fall-compiler_cminus/include -I/llvm/include -I/labs/2022fall-compiler_cminus -I/labs/2022fall-compiler_cminus/build -I/labs/2022fall-compiler_cminus/include/lightir -I/labs/2022fall-compiler_cminus/include/optimization   -O0 -Wall -g2 -ggdb   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -std=gnu++17 -o CMakeFiles/IR_lib.dir/Value.cpp.o -c /labs/2022fall-compiler_cminus/src/lightir/Value.cpp",
+  "file": "/labs/2022fall-compiler_cminus/src/lightir/Value.cpp"
+},
+{
+  "directory": "/labs/2022fall-compiler_cminus/build/src/lightir",
+  "command": "/usr/bin/c++   -I/labs/2022fall-compiler_cminus/include -I/llvm/include -I/labs/2022fall-compiler_cminus -I/labs/2022fall-compiler_cminus/build -I/labs/2022fall-compiler_cminus/include/lightir -I/labs/2022fall-compiler_cminus/include/optimization   -O0 -Wall -g2 -ggdb   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -std=gnu++17 -o CMakeFiles/IR_lib.dir/BasicBlock.cpp.o -c /labs/2022fall-compiler_cminus/src/lightir/BasicBlock.cpp",
+  "file": "/labs/2022fall-compiler_cminus/src/lightir/BasicBlock.cpp"
+},
+{
+  "directory": "/labs/2022fall-compiler_cminus/build/src/lightir",
+  "command": "/usr/bin/c++   -I/labs/2022fall-compiler_cminus/include -I/llvm/include -I/labs/2022fall-compiler_cminus -I/labs/2022fall-compiler_cminus/build -I/labs/2022fall-compiler_cminus/include/lightir -I/labs/2022fall-compiler_cminus/include/optimization   -O0 -Wall -g2 -ggdb   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -std=gnu++17 -o CMakeFiles/IR_lib.dir/Constant.cpp.o -c /labs/2022fall-compiler_cminus/src/lightir/Constant.cpp",
+  "file": "/labs/2022fall-compiler_cminus/src/lightir/Constant.cpp"
+},
+{
+  "directory": "/labs/2022fall-compiler_cminus/build/src/lightir",
+  "command": "/usr/bin/c++   -I/labs/2022fall-compiler_cminus/include -I/llvm/include -I/labs/2022fall-compiler_cminus -I/labs/2022fall-compiler_cminus/build -I/labs/2022fall-compiler_cminus/include/lightir -I/labs/2022fall-compiler_cminus/include/optimization   -O0 -Wall -g2 -ggdb   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -std=gnu++17 -o CMakeFiles/IR_lib.dir/Function.cpp.o -c /labs/2022fall-compiler_cminus/src/lightir/Function.cpp",
+  "file": "/labs/2022fall-compiler_cminus/src/lightir/Function.cpp"
+},
+{
+  "directory": "/labs/2022fall-compiler_cminus/build/src/lightir",
+  "command": "/usr/bin/c++   -I/labs/2022fall-compiler_cminus/include -I/llvm/include -I/labs/2022fall-compiler_cminus -I/labs/2022fall-compiler_cminus/build -I/labs/2022fall-compiler_cminus/include/lightir -I/labs/2022fall-compiler_cminus/include/optimization   -O0 -Wall -g2 -ggdb   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -std=gnu++17 -o CMakeFiles/IR_lib.dir/GlobalVariable.cpp.o -c /labs/2022fall-compiler_cminus/src/lightir/GlobalVariable.cpp",
+  "file": "/labs/2022fall-compiler_cminus/src/lightir/GlobalVariable.cpp"
+},
+{
+  "directory": "/labs/2022fall-compiler_cminus/build/src/lightir",
+  "command": "/usr/bin/c++   -I/labs/2022fall-compiler_cminus/include -I/llvm/include -I/labs/2022fall-compiler_cminus -I/labs/2022fall-compiler_cminus/build -I/labs/2022fall-compiler_cminus/include/lightir -I/labs/2022fall-compiler_cminus/include/optimization   -O0 -Wall -g2 -ggdb   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -std=gnu++17 -o CMakeFiles/IR_lib.dir/Instruction.cpp.o -c /labs/2022fall-compiler_cminus/src/lightir/Instruction.cpp",
+  "file": "/labs/2022fall-compiler_cminus/src/lightir/Instruction.cpp"
+},
+{
+  "directory": "/labs/2022fall-compiler_cminus/build/src/lightir",
+  "command": "/usr/bin/c++   -I/labs/2022fall-compiler_cminus/include -I/llvm/include -I/labs/2022fall-compiler_cminus -I/labs/2022fall-compiler_cminus/build -I/labs/2022fall-compiler_cminus/include/lightir -I/labs/2022fall-compiler_cminus/include/optimization   -O0 -Wall -g2 -ggdb   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -std=gnu++17 -o CMakeFiles/IR_lib.dir/Module.cpp.o -c /labs/2022fall-compiler_cminus/src/lightir/Module.cpp",
+  "file": "/labs/2022fall-compiler_cminus/src/lightir/Module.cpp"
+},
+{
+  "directory": "/labs/2022fall-compiler_cminus/build/src/lightir",
+  "command": "/usr/bin/c++   -I/labs/2022fall-compiler_cminus/include -I/llvm/include -I/labs/2022fall-compiler_cminus -I/labs/2022fall-compiler_cminus/build -I/labs/2022fall-compiler_cminus/include/lightir -I/labs/2022fall-compiler_cminus/include/optimization   -O0 -Wall -g2 -ggdb   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -std=gnu++17 -o CMakeFiles/IR_lib.dir/IRprinter.cpp.o -c /labs/2022fall-compiler_cminus/src/lightir/IRprinter.cpp",
+  "file": "/labs/2022fall-compiler_cminus/src/lightir/IRprinter.cpp"
+},
+{
+  "directory": "/labs/2022fall-compiler_cminus/build/src/cminusfc",
+  "command": "/usr/bin/c++   -I/labs/2022fall-compiler_cminus/include -I/llvm/include -I/labs/2022fall-compiler_cminus -I/labs/2022fall-compiler_cminus/build -I/labs/2022fall-compiler_cminus/include/lightir -I/labs/2022fall-compiler_cminus/include/optimization   -O0 -Wall -g2 -ggdb   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -std=gnu++17 -o CMakeFiles/cminusfc.dir/cminusfc.cpp.o -c /labs/2022fall-compiler_cminus/src/cminusfc/cminusfc.cpp",
+  "file": "/labs/2022fall-compiler_cminus/src/cminusfc/cminusfc.cpp"
+},
+{
+  "directory": "/labs/2022fall-compiler_cminus/build/src/cminusfc",
+  "command": "/usr/bin/c++   -I/labs/2022fall-compiler_cminus/include -I/llvm/include -I/labs/2022fall-compiler_cminus -I/labs/2022fall-compiler_cminus/build -I/labs/2022fall-compiler_cminus/include/lightir -I/labs/2022fall-compiler_cminus/include/optimization   -O0 -Wall -g2 -ggdb   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -std=gnu++17 -o CMakeFiles/cminusfc.dir/cminusf_builder.cpp.o -c /labs/2022fall-compiler_cminus/src/cminusfc/cminusf_builder.cpp",
+  "file": "/labs/2022fall-compiler_cminus/src/cminusfc/cminusf_builder.cpp"
+},
+{
+  "directory": "/labs/2022fall-compiler_cminus/build/src/optimization",
+  "command": "/usr/bin/c++   -I/labs/2022fall-compiler_cminus/include -I/llvm/include -I/labs/2022fall-compiler_cminus -I/labs/2022fall-compiler_cminus/build -I/labs/2022fall-compiler_cminus/include/lightir -I/labs/2022fall-compiler_cminus/include/optimization   -O0 -Wall -g2 -ggdb   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -std=gnu++17 -o CMakeFiles/OP_lib.dir/Dominators.cpp.o -c /labs/2022fall-compiler_cminus/src/optimization/Dominators.cpp",
+  "file": "/labs/2022fall-compiler_cminus/src/optimization/Dominators.cpp"
+},
+{
+  "directory": "/labs/2022fall-compiler_cminus/build/src/optimization",
+  "command": "/usr/bin/c++   -I/labs/2022fall-compiler_cminus/include -I/llvm/include -I/labs/2022fall-compiler_cminus -I/labs/2022fall-compiler_cminus/build -I/labs/2022fall-compiler_cminus/include/lightir -I/labs/2022fall-compiler_cminus/include/optimization   -O0 -Wall -g2 -ggdb   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -std=gnu++17 -o CMakeFiles/OP_lib.dir/Mem2Reg.cpp.o -c /labs/2022fall-compiler_cminus/src/optimization/Mem2Reg.cpp",
+  "file": "/labs/2022fall-compiler_cminus/src/optimization/Mem2Reg.cpp"
+},
+{
+  "directory": "/labs/2022fall-compiler_cminus/build/src/optimization",
+  "command": "/usr/bin/c++   -I/labs/2022fall-compiler_cminus/include -I/llvm/include -I/labs/2022fall-compiler_cminus -I/labs/2022fall-compiler_cminus/build -I/labs/2022fall-compiler_cminus/include/lightir -I/labs/2022fall-compiler_cminus/include/optimization   -O0 -Wall -g2 -ggdb   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -std=gnu++17 -o CMakeFiles/OP_lib.dir/GVN.cpp.o -c /labs/2022fall-compiler_cminus/src/optimization/GVN.cpp",
+  "file": "/labs/2022fall-compiler_cminus/src/optimization/GVN.cpp"
+},
+{
+  "directory": "/labs/2022fall-compiler_cminus/build/tests",
+  "command": "/usr/bin/c++   -I/labs/2022fall-compiler_cminus/include -I/llvm/include -I/labs/2022fall-compiler_cminus -I/labs/2022fall-compiler_cminus/build -I/labs/2022fall-compiler_cminus/include/lightir -I/labs/2022fall-compiler_cminus/include/optimization   -O0 -Wall -g2 -ggdb   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -std=gnu++17 -o CMakeFiles/test_logging.dir/test_logging.cpp.o -c /labs/2022fall-compiler_cminus/tests/test_logging.cpp",
+  "file": "/labs/2022fall-compiler_cminus/tests/test_logging.cpp"
+},
+{
+  "directory": "/labs/2022fall-compiler_cminus/build/tests",
+  "command": "/usr/bin/c++   -I/labs/2022fall-compiler_cminus/include -I/llvm/include -I/labs/2022fall-compiler_cminus -I/labs/2022fall-compiler_cminus/build -I/labs/2022fall-compiler_cminus/include/lightir -I/labs/2022fall-compiler_cminus/include/optimization   -O0 -Wall -g2 -ggdb   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -std=gnu++17 -o CMakeFiles/test_ast.dir/test_ast.cpp.o -c /labs/2022fall-compiler_cminus/tests/test_ast.cpp",
+  "file": "/labs/2022fall-compiler_cminus/tests/test_ast.cpp"
+},
+{
+  "directory": "/labs/2022fall-compiler_cminus/build/tests/parser",
+  "command": "/usr/bin/cc  -I/labs/2022fall-compiler_cminus/include -I/llvm/include -I/labs/2022fall-compiler_cminus -I/labs/2022fall-compiler_cminus/build -I/labs/2022fall-compiler_cminus/include/lightir -I/labs/2022fall-compiler_cminus/include/optimization   -std=c99 -g   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/lexer.dir/lexer.c.o   -c /labs/2022fall-compiler_cminus/tests/parser/lexer.c",
+  "file": "/labs/2022fall-compiler_cminus/tests/parser/lexer.c"
+},
+{
+  "directory": "/labs/2022fall-compiler_cminus/build/tests/parser",
+  "command": "/usr/bin/cc  -I/labs/2022fall-compiler_cminus/include -I/llvm/include -I/labs/2022fall-compiler_cminus -I/labs/2022fall-compiler_cminus/build -I/labs/2022fall-compiler_cminus/include/lightir -I/labs/2022fall-compiler_cminus/include/optimization   -std=c99 -g   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/parser.dir/parser.c.o   -c /labs/2022fall-compiler_cminus/tests/parser/parser.c",
+  "file": "/labs/2022fall-compiler_cminus/tests/parser/parser.c"
+},
+{
+  "directory": "/labs/2022fall-compiler_cminus/build/tests/2-ir-gen-warmup",
+  "command": "/usr/bin/c++   -I/labs/2022fall-compiler_cminus/include -I/llvm/include -I/labs/2022fall-compiler_cminus -I/labs/2022fall-compiler_cminus/build -I/labs/2022fall-compiler_cminus/include/lightir -I/labs/2022fall-compiler_cminus/include/optimization   -O0 -Wall -g2 -ggdb   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -std=gnu++17 -o CMakeFiles/stu_while_generator.dir/stu_cpp/while_generator.cpp.o -c /labs/2022fall-compiler_cminus/tests/2-ir-gen-warmup/stu_cpp/while_generator.cpp",
+  "file": "/labs/2022fall-compiler_cminus/tests/2-ir-gen-warmup/stu_cpp/while_generator.cpp"
+},
+{
+  "directory": "/labs/2022fall-compiler_cminus/build/tests/2-ir-gen-warmup",
+  "command": "/usr/bin/c++   -I/labs/2022fall-compiler_cminus/include -I/llvm/include -I/labs/2022fall-compiler_cminus -I/labs/2022fall-compiler_cminus/build -I/labs/2022fall-compiler_cminus/include/lightir -I/labs/2022fall-compiler_cminus/include/optimization   -O0 -Wall -g2 -ggdb   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -std=gnu++17 -o CMakeFiles/stu_if_generator.dir/stu_cpp/if_generator.cpp.o -c /labs/2022fall-compiler_cminus/tests/2-ir-gen-warmup/stu_cpp/if_generator.cpp",
+  "file": "/labs/2022fall-compiler_cminus/tests/2-ir-gen-warmup/stu_cpp/if_generator.cpp"
+},
+{
+  "directory": "/labs/2022fall-compiler_cminus/build/tests/2-ir-gen-warmup",
+  "command": "/usr/bin/c++   -I/labs/2022fall-compiler_cminus/include -I/llvm/include -I/labs/2022fall-compiler_cminus -I/labs/2022fall-compiler_cminus/build -I/labs/2022fall-compiler_cminus/include/lightir -I/labs/2022fall-compiler_cminus/include/optimization   -O0 -Wall -g2 -ggdb   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -std=gnu++17 -o CMakeFiles/stu_assign_generator.dir/stu_cpp/assign_generator.cpp.o -c /labs/2022fall-compiler_cminus/tests/2-ir-gen-warmup/stu_cpp/assign_generator.cpp",
+  "file": "/labs/2022fall-compiler_cminus/tests/2-ir-gen-warmup/stu_cpp/assign_generator.cpp"
+},
+{
+  "directory": "/labs/2022fall-compiler_cminus/build/tests/2-ir-gen-warmup",
+  "command": "/usr/bin/c++   -I/labs/2022fall-compiler_cminus/include -I/llvm/include -I/labs/2022fall-compiler_cminus -I/labs/2022fall-compiler_cminus/build -I/labs/2022fall-compiler_cminus/include/lightir -I/labs/2022fall-compiler_cminus/include/optimization   -O0 -Wall -g2 -ggdb   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -std=gnu++17 -o CMakeFiles/stu_fun_generator.dir/stu_cpp/fun_generator.cpp.o -c /labs/2022fall-compiler_cminus/tests/2-ir-gen-warmup/stu_cpp/fun_generator.cpp",
+  "file": "/labs/2022fall-compiler_cminus/tests/2-ir-gen-warmup/stu_cpp/fun_generator.cpp"
+},
+{
+  "directory": "/labs/2022fall-compiler_cminus/build/tests/2-ir-gen-warmup",
+  "command": "/usr/bin/c++   -I/labs/2022fall-compiler_cminus/include -I/llvm/include -I/labs/2022fall-compiler_cminus -I/labs/2022fall-compiler_cminus/build -I/labs/2022fall-compiler_cminus/include/lightir -I/labs/2022fall-compiler_cminus/include/optimization   -O0 -Wall -g2 -ggdb   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -std=gnu++17 -o CMakeFiles/gcd_array_generator.dir/ta_gcd/gcd_array_generator.cpp.o -c /labs/2022fall-compiler_cminus/tests/2-ir-gen-warmup/ta_gcd/gcd_array_generator.cpp",
+  "file": "/labs/2022fall-compiler_cminus/tests/2-ir-gen-warmup/ta_gcd/gcd_array_generator.cpp"
+},
+{
+  "directory": "/labs/2022fall-compiler_cminus/build/tests/2-ir-gen-warmup/calculator",
+  "command": "/usr/bin/c++   -I/labs/2022fall-compiler_cminus/include -I/llvm/include -I/labs/2022fall-compiler_cminus -I/labs/2022fall-compiler_cminus/build -I/labs/2022fall-compiler_cminus/include/lightir -I/labs/2022fall-compiler_cminus/include/optimization   -O0 -Wall -g2 -ggdb   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -std=gnu++17 -o CMakeFiles/calc.dir/calc.cpp.o -c /labs/2022fall-compiler_cminus/tests/2-ir-gen-warmup/calculator/calc.cpp",
+  "file": "/labs/2022fall-compiler_cminus/tests/2-ir-gen-warmup/calculator/calc.cpp"
+},
+{
+  "directory": "/labs/2022fall-compiler_cminus/build/tests/2-ir-gen-warmup/calculator",
+  "command": "/usr/bin/c++   -I/labs/2022fall-compiler_cminus/include -I/llvm/include -I/labs/2022fall-compiler_cminus -I/labs/2022fall-compiler_cminus/build -I/labs/2022fall-compiler_cminus/include/lightir -I/labs/2022fall-compiler_cminus/include/optimization   -O0 -Wall -g2 -ggdb   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -std=gnu++17 -o CMakeFiles/calc.dir/calc_ast.cpp.o -c /labs/2022fall-compiler_cminus/tests/2-ir-gen-warmup/calculator/calc_ast.cpp",
+  "file": "/labs/2022fall-compiler_cminus/tests/2-ir-gen-warmup/calculator/calc_ast.cpp"
+},
+{
+  "directory": "/labs/2022fall-compiler_cminus/build/tests/2-ir-gen-warmup/calculator",
+  "command": "/usr/bin/c++   -I/labs/2022fall-compiler_cminus/include -I/llvm/include -I/labs/2022fall-compiler_cminus -I/labs/2022fall-compiler_cminus/build -I/labs/2022fall-compiler_cminus/include/lightir -I/labs/2022fall-compiler_cminus/include/optimization   -O0 -Wall -g2 -ggdb   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -std=gnu++17 -o CMakeFiles/calc.dir/calc_builder.cpp.o -c /labs/2022fall-compiler_cminus/tests/2-ir-gen-warmup/calculator/calc_builder.cpp",
+  "file": "/labs/2022fall-compiler_cminus/tests/2-ir-gen-warmup/calculator/calc_builder.cpp"
+},
+{
+  "directory": "/labs/2022fall-compiler_cminus/build/tests/2-ir-gen-warmup/calculator",
+  "command": "/usr/bin/cc  -I/labs/2022fall-compiler_cminus/include -I/llvm/include -I/labs/2022fall-compiler_cminus -I/labs/2022fall-compiler_cminus/build -I/labs/2022fall-compiler_cminus/include/lightir -I/labs/2022fall-compiler_cminus/include/optimization   -std=c99 -g   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/calc_syntax.dir/calc_syntax.c.o   -c /labs/2022fall-compiler_cminus/build/tests/2-ir-gen-warmup/calculator/calc_syntax.c",
+  "file": "/labs/2022fall-compiler_cminus/build/tests/2-ir-gen-warmup/calculator/calc_syntax.c"
+},
+{
+  "directory": "/labs/2022fall-compiler_cminus/build/tests/2-ir-gen-warmup/calculator",
+  "command": "/usr/bin/cc  -I/labs/2022fall-compiler_cminus/include -I/llvm/include -I/labs/2022fall-compiler_cminus -I/labs/2022fall-compiler_cminus/build -I/labs/2022fall-compiler_cminus/include/lightir -I/labs/2022fall-compiler_cminus/include/optimization   -std=c99 -g   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/calc_syntax.dir/calc_lex.c.o   -c /labs/2022fall-compiler_cminus/build/tests/2-ir-gen-warmup/calculator/calc_lex.c",
+  "file": "/labs/2022fall-compiler_cminus/build/tests/2-ir-gen-warmup/calculator/calc_lex.c"
+}
+]

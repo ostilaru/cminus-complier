@@ -1,0 +1,2 @@
+/usr/local/lib/libcminus_io.a
+/usr/local/bin/cminusfc

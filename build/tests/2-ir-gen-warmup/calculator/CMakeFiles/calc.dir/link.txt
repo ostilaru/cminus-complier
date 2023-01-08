@@ -1,0 +1,1 @@
+/usr/bin/c++   -O0 -Wall -g2 -ggdb   CMakeFiles/calc.dir/calc.cpp.o CMakeFiles/calc.dir/calc_ast.cpp.o CMakeFiles/calc.dir/calc_builder.cpp.o  -o ../../../calc  ../../../libIR_lib.a ../../../libcalc_syntax.a ../../../libcommon.a /llvm/lib/libLLVMSupport.a -lrt -ldl -lpthread -lm /llvm/lib/libLLVMDemangle.a 
